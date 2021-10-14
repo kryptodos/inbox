@@ -8,7 +8,7 @@ const { interface, bytecode } = require('../compile');
 let accounts;
 let inbox;
 
-   
+
 beforeEach (async () => {
     //Get a list of all accounts
     accounts = await web3.eth.getAccounts();
